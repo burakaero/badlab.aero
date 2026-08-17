@@ -4,11 +4,30 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
-		<title>BADLAB</title>
+		<title>BADLAB — Bridging Aerodynamics with Artificial Intelligence</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+		<!-- SEO -->
+		<meta name="description" content="BADLAB — research notebook of Burak [Soyad], Aerospace Engineering, Ankara Yildirim Beyazit University. Compressible aerodynamics, physics-informed neural networks, CFD solver development, aerodynamic shape optimisation and flow instrumentation." />
+		<meta name="author" content="Burak [Soyad]" />
+		<meta name="keywords" content="aerodynamics, CFD, physics-informed neural networks, PINN, shock wave boundary layer interaction, SWBLI, CST airfoil parameterisation, aerodynamic shape optimisation, Pitot probe, scientific machine learning" />
+		<link rel="canonical" href="https://burakaero.github.io/badlab.aero/" />
+
+		<!-- Social preview -->
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="BADLAB — Bridging Aerodynamics with Artificial Intelligence" />
+		<meta property="og:description" content="Compressible aerodynamics, physics-informed machine learning and solver development. Research notebook of Burak [Soyad], AYBU Aerospace Engineering." />
+		<meta property="og:url" content="https://burakaero.github.io/badlab.aero/" />
+		<meta property="og:image" content="https://burakaero.github.io/badlab.aero/images/og-image.jpg" />
+		<meta name="twitter:card" content="summary_large_image" />
+
+		<!-- Icons -->
+		<link rel="icon" href="images/favicon.png" type="image/png" />
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
@@ -20,9 +39,10 @@
 					<nav>
 						<ul>
 							<li><a href="#intro">Welcome</a></li>
-							<li><a href="#one">Who we are</a></li>
-							<li><a href="#two">What we do</a></li>
-							<li><a href="#three">Get in touch</a></li>
+							<li><a href="#one">Research</a></li>
+							<li><a href="#two">Focus areas</a></li>
+							<li><a href="#three">Output</a></li>
+							<li><a href="#four">Get in touch</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -34,122 +54,230 @@
 				<!-- Intro -->
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
-						    <h1>BADLAB</h1>
-						    <p>Bridging Aerodynamics with Artificial Intelligence<br />
-						    Ankara Yıldırım Beyazıt University - Dept. of Aerospace Engineering</p>
-						    <ul class="actions">
-						        <li><a href="#one" class="button scrolly">Projelerimizi Keşfet</a></li>
-						    </ul>
-						</div>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Sed ipsum dolor</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What we do</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-code"></span>
-									<h3>Lorem ipsum amet</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-lock"></span>
-									<h3>Aliquam sed nullam</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-cog"></span>
-									<h3>Sed erat ullam corper</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-desktop"></span>
-									<h3>Veroeros quis lorem</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon solid major fa-link"></span>
-									<h3>Urna quis bibendum</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-								<section>
-									<span class="icon major fa-gem"></span>
-									<h3>Aliquam urna dapibus</h3>
-									<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-								</section>
-							</div>
+							<h1>BADLAB</h1>
+							<p>Bridging Aerodynamics with Artificial Intelligence<br />
+							Burak [Soyad] &middot; [Lisans/Yüksek Lisans] researcher, Department of Aerospace Engineering<br />
+							Ankara Yıldırım Beyazıt University</p>
+							<p>A working notebook for what happens when compressible flow physics is handed to
+							a solver, an optimiser, or a neural network — and what each one gets wrong.</p>
 							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn more</a></li>
+								<li><a href="#one" class="button scrolly">Explore the work</a></li>
+								<li><a href="#three" class="button scrolly">Output &amp; code</a></li>
 							</ul>
 						</div>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style1 fade-up">
+				<!-- One: projects -->
+					<section id="one" class="wrapper style2 spotlights">
+
+						<!-- Project 1: PINN + SWBLI -->
+						<section>
+							<a href="https://github.com/burakaero" class="image"><img src="images/pinn-swbli.jpg" alt="Density gradient field of a shock wave impinging on a boundary layer" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Physics-informed neural networks for shock wave / boundary layer interaction</h2>
+									<p>Shock wave / boundary layer interaction (SWBLI) sets the performance limit of
+									supersonic inlets, transonic wings and over-expanded nozzles, and it is exactly the
+									kind of flow that data-driven models handle badly: a discontinuity sitting on top of
+									a viscous, frequently separated near-wall region. This project trains physics-informed
+									neural networks on the compressible Navier–Stokes residual to reconstruct interaction
+									regions from sparse measurements, and treats the failure modes as the actual subject —
+									spectral bias that smears the shock, loss-term imbalance between residual and boundary
+									conditions, and the way a separation bubble quietly disappears when the optimiser
+									finds a smoother answer that scores well.</p>
+									<p>Current directions: adaptive loss weighting, domain decomposition around the shock
+									foot, and quantitative comparison of the predicted separation length and wall pressure
+									distribution against reference CFD rather than against a plotted field that merely
+									looks correct.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/burakaero" class="button">Repository</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<!-- Project 2: CFD solver -->
+						<section>
+							<a href="https://github.com/burakaero" class="image"><img src="images/cfd-solver.jpg" alt="Sod shock tube solution and computational grid from an in-house finite volume solver" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>In-house compressible CFD solver</h2>
+									<p>A finite-volume solver for the compressible Euler and Navier–Stokes equations,
+									written from the ground up rather than assembled from a framework: approximate Riemann
+									solvers (Roe, HLLC), MUSCL reconstruction with slope limiters, explicit and implicit
+									time integration, and boundary treatments that survive supersonic outflow.</p>
+									<p>Verification is part of the deliverable, not an afterthought — Sod's shock tube,
+									supersonic wedge and oblique shock reflection, flat-plate laminar boundary layer against
+									the Blasius solution, and grid convergence studies for observed order of accuracy.
+									Writing the solver serves everything else on this page: it generates the reference
+									fields the neural network work is trained and judged against, and it keeps the numerics
+									inspectable instead of hidden behind a commercial black box.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/burakaero" class="button">Repository</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<!-- Project 3: CST airfoil optimisation -->
+						<section>
+							<a href="https://github.com/burakaero" class="image"><img src="images/cst-optimization.jpg" alt="Airfoil shapes generated by CST parameterisation overlaid through an optimisation history" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>CST parameterisation and aerodynamic shape optimisation</h2>
+									<p>Class–Shape Transformation describes an aerofoil with a handful of Bernstein
+									coefficients, which makes it a natural design vector: smooth by construction, compact
+									enough for a surrogate model, and expressive enough to recover standard sections to
+									within manufacturing tolerance. This project couples CST geometry to an aerodynamic
+									evaluation — panel method for cheap sweeps, the in-house solver where compressibility
+									matters — inside gradient-free and surrogate-assisted optimisation loops.</p>
+									<p>The interesting questions are not in the optimiser: how many coefficients before the
+									design space stops being useful, how to keep geometric constraints (thickness, trailing
+									edge, curvature) from being satisfied on paper but violated in practice, and how much of
+									a reported drag reduction survives a mesh refinement.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/burakaero" class="button">Repository</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<!-- Project 4: Pitot probe -->
+						<section>
+							<a href="https://github.com/burakaero" class="image"><img src="images/pitot-probe.jpg" alt="Pitot-static probe geometry with static port detail and internal cavity" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Pitot-static probe design and calibration</h2>
+									<p>An instrument is a model with a machining tolerance. This work covers the design,
+									manufacture and calibration of Pitot and Pitot-static probes for laboratory use: head
+									geometry, static port placement and count, internal cavity volume and its effect on
+									response time, and the sensitivity of the reading to yaw and pitch misalignment.</p>
+									<p>CFD is used ahead of manufacture to predict the error envelope — where the static
+									port sits relative to the head's own pressure recovery, how far off-axis the probe stays
+									within an acceptable band — and wind tunnel calibration is used to find out how much of
+									that prediction was true.</p>
+									<ul class="actions">
+										<li><a href="https://github.com/burakaero" class="button">Repository</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+					</section>
+
+				<!-- Two: focus areas -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Focus areas</h2>
+							<p>The projects above sit on a small set of recurring interests. The connecting thread is
+							compressible flow that resists cheap modelling, and the honest evaluation of whatever tool —
+							numerical, data-driven or experimental — is pointed at it.</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-wind"></span>
+									<h3>High-speed aerodynamics</h3>
+									<p>Transonic and supersonic flow, shock structure, shock-induced separation, and the
+									interaction between a discontinuity and a viscous wall layer.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-brain"></span>
+									<h3>Scientific machine learning</h3>
+									<p>Physics-informed neural networks and PDE-constrained training, with attention to
+									where they break: sharp gradients, stiff loss landscapes, unverifiable smoothness.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Numerical methods</h3>
+									<p>Finite volume discretisation, approximate Riemann solvers, high-resolution
+									reconstruction, time integration, and verification against analytical benchmarks.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-drafting-compass"></span>
+									<h3>Shape optimisation</h3>
+									<p>CST and related parameterisations, design-space dimensionality, constraint
+									handling, and surrogate-assisted search for aerodynamic shape design.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-flask"></span>
+									<h3>Experimental aerodynamics</h3>
+									<p>Probe design and calibration, pressure measurement, uncertainty budgets, and wind
+									tunnel work that puts a number on how wrong the simulation was.</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-chart-line"></span>
+									<h3>Surrogate &amp; reduced-order models</h3>
+									<p>Cheap approximations of expensive solvers — regression surrogates, modal
+									decomposition — and the question of when their extrapolation stops being trustworthy.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				<!-- Three: output -->
+					<section id="three" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h2>Output</h2>
+							<p>Papers, talks, theses and code. Everything listed here is either published, publicly
+							archived, or available on request.</p>
+
+							<h3>Publications &amp; preprints</h3>
+							<ul class="alt">
+								<li>[Yazarlar]. <strong>[Makale başlığı]</strong>. [Dergi / konferans], [yıl]. <a href="#">DOI</a> · <a href="#">PDF</a></li>
+								<li>[Yazarlar]. <strong>[Makale başlığı]</strong>. [Dergi / konferans], [yıl]. <a href="#">DOI</a> · <a href="#">PDF</a></li>
+							</ul>
+
+							<h3>Talks &amp; posters</h3>
+							<ul class="alt">
+								<li><strong>[Sunum başlığı]</strong> — [Etkinlik adı], [şehir], [ay yıl]. <a href="#">Slides</a></li>
+							</ul>
+
+							<h3>Theses &amp; reports</h3>
+							<ul class="alt">
+								<li><strong>[Tez / proje raporu başlığı]</strong> — [Derece], Ankara Yıldırım Beyazıt University, [yıl]. Supervisor: [Danışman]. <a href="#">PDF</a></li>
+							</ul>
+
+							<h3>Code</h3>
+							<ul class="alt">
+								<li><strong>[repo-adi]</strong> — in-house compressible finite-volume solver. <a href="https://github.com/burakaero">GitHub</a></li>
+								<li><strong>[repo-adi]</strong> — PINN framework for SWBLI reconstruction. <a href="https://github.com/burakaero">GitHub</a></li>
+								<li><strong>[repo-adi]</strong> — CST parameterisation and shape optimisation toolkit. <a href="https://github.com/burakaero">GitHub</a></li>
+							</ul>
+
+							<ul class="actions">
+								<li><a href="https://github.com/burakaero" class="button">All repositories</a></li>
+								<li><a href="files/cv.pdf" class="button">Curriculum vitae</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Four: contact -->
+					<section id="four" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+							<p>Open to collaboration on compressible flow solvers, physics-informed modelling and
+							aerodynamic design studies, and to questions from students who want to start similar work.
+							Email is the reliable channel.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<!-- Formspree: replace XXXXXXXX with your own form ID from formspree.io -->
+									<form method="post" action="https://formspree.io/f/XXXXXXXX">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
+												<input type="text" name="name" id="name" required />
 											</div>
 											<div class="field half">
 												<label for="email">Email</label>
-												<input type="text" name="email" id="email" />
+												<input type="email" name="email" id="email" required />
 											</div>
 											<div class="field">
 												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
+												<textarea name="message" id="message" rows="5" required></textarea>
 											</div>
 										</div>
+										<input type="hidden" name="_subject" value="badlab.aero — new message" />
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><input type="submit" value="Send message" class="button submit" /></li>
 										</ul>
 									</form>
 								</section>
@@ -157,26 +285,23 @@
 									<ul class="contact">
 										<li>
 											<h3>Address</h3>
-											<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
+											<span>Department of Aerospace Engineering<br />
+											Faculty of Engineering and Natural Sciences<br />
+											Ankara Yıldırım Beyazıt University<br />
+											[Kampüs / bina / oda], Ankara, Türkiye</span>
 										</li>
 										<li>
 											<h3>Email</h3>
-											<a href="#">user@untitled.tld</a>
+											<a href="mailto:[eposta@aybu.edu.tr]">[eposta@aybu.edu.tr]</a>
 										</li>
 										<li>
-											<h3>Phone</h3>
-											<span>(000) 000-0000</span>
-										</li>
-										<li>
-											<h3>Social</h3>
+											<h3>Elsewhere</h3>
 											<ul class="icons">
-												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-												<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="https://github.com/burakaero" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="[LinkedIn URL]" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+												<li><a href="[Google Scholar URL]" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+												<li><a href="[ORCID URL]" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+												<li><a href="[ResearchGate URL]" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
 											</ul>
 										</li>
 									</ul>
@@ -191,7 +316,7 @@
 			<footer id="footer" class="wrapper style1-alt">
 				<div class="inner">
 					<ul class="menu">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; 2026 Burak [Soyad] · BADLAB. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 				</div>
 			</footer>
